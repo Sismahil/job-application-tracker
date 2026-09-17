@@ -2,8 +2,6 @@
 
 A modern, responsive web application for tracking job applications with a beautiful horizontal scrolling carousel interface.
 
-**Built with guidance from [TechByEdwina](https://www.linkedin.com/company/techbyedwina/) - AWS Accredited Instructor**
-
 ## Features
 
 - **Comprehensive Application Form** - Track company, role, status, source, dates, salary, actions, and notes
