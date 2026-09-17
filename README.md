@@ -188,6 +188,11 @@ This project demonstrates:
 - **API Integration** - RESTful API consumption
 - **Modern CSS** - Gradients, animations, and flexbox/grid layouts
 
+
+## RESULT
+<img width="1777" height="792" alt="image" src="https://github.com/user-attachments/assets/6c350767-11be-456c-b484-980705e5c3e7" />
+
+
 ## License
 
 MIT License - Perfect for personal, educational, or portfolio projects!
