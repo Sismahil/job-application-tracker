@@ -1,5 +1,5 @@
 // Update this with your actual API Gateway endpoint
-const API_URL = "https://zfx3nu2e09.execute-api.us-west-1.amazonaws.com/appications";
+const API_URL = "https://jojp6o2ba4.execute-api.us-east-1.amazonaws.com/applications";
 
 // State management
 let applications = [];
@@ -312,10 +312,10 @@ function createApplicationCard(app) {
           </div>` : ''}
           
           <div class="card-actions">
-            <button class="btn btn-small btn-outline" onclick="event.stopPropagation(); editApplication('${app.applicationId}')">
+            <button class="btn btn-small btn-outline" onclick="event.stopPropagation(); editApplication('${app.applicationid}')">
               Edit
             </button>
-            <button class="btn btn-small btn-danger" onclick="event.stopPropagation(); deleteApplication('${app.applicationId}')">
+            <button class="btn btn-small btn-danger" onclick="event.stopPropagation(); deleteApplication('${app.applicationid}')">
               Delete
             </button>
           </div>
@@ -336,13 +336,13 @@ function toggleCardExpansion(card) {
 }
 
 // Placeholder functions for edit/delete
-function editApplication(applicationId) {
+function editApplication(applicationid) {
   showToast('Edit functionality coming soon!', 'info');
 }
 
-function deleteApplication(applicationId) {
+function deleteApplication(applicationid) {
   if (confirm('Are you sure you want to delete this application?')) {
-    applications = applications.filter(app => app.applicationId !== applicationId);
+    applications = applications.filter(app => app.applicationid !== applicationid);
     renderApplications();
     updateApplicationsCount();
     showToast('Application deleted successfully!', 'success');
