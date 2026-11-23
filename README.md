@@ -109,10 +109,6 @@ A modern, responsive web application for tracking job applications with a beauti
 2. Amplify will automatically detect this as a static site
 3. Deploy with default settings
 
-#### Other Static Hosts
-- **Netlify**: Drag and drop the files
-- **Vercel**: Connect repository or upload files
-- **GitHub Pages**: Push to repository and enable Pages
 
 ## File Structure
 
